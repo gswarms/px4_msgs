@@ -29,6 +29,7 @@ set(PX4_MSGS
 	"msg/VehicleAttitude.msg"
 	"msg/VehicleAttitudeSetpoint.msg"
 	"msg/VehicleTrajectoryWaypoint.msg"
+	"msg/VehicleGlobalPosition.msg"
 	"msg/VehicleControlMode.msg"
 	"msg/OffboardControlMode.msg"
 	"msg/BatteryStatus.msg"
