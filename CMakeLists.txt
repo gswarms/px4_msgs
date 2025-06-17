@@ -41,6 +41,7 @@ set(PX4_MSGS
 	"msg/RadarDetection.msg"
 	"msg/TimesyncStatus.msg"
 	"msg/RcChannels.msg"
+	"msg/InterceptionData.msg"
 
 	# user messages
 	"msg/OsdOverlay.msg"
