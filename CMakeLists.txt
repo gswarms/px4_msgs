@@ -42,6 +42,7 @@ set(PX4_MSGS
 	"msg/TimesyncStatus.msg"
 	"msg/RcChannels.msg"
 	"msg/InterceptionData.msg"
+	"msg/HoverThrustEstimate.msg"
 
 	# user messages
 	"msg/OsdOverlay.msg"
