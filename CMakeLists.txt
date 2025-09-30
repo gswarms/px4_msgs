@@ -29,12 +29,10 @@ set(PX4_MSGS
 	"msg/VehicleAttitude.msg"
 	"msg/VehicleAngularVelocity.msg"
 	"msg/VehicleAttitudeSetpoint.msg"
-	"msg/VehicleTrajectoryWaypoint.msg"
 	"msg/VehicleGlobalPosition.msg"
 	"msg/VehicleControlMode.msg"
 	"msg/OffboardControlMode.msg"
 	"msg/BatteryStatus.msg"
-	"msg/TrajectoryWaypoint.msg"
 	"msg/TrajectorySetpoint.msg"
 	"msg/EscStatus.msg"
 	"msg/EscReport.msg"
@@ -43,9 +41,6 @@ set(PX4_MSGS
 	"msg/RcChannels.msg"
 	"msg/InterceptionData.msg"
 	"msg/HoverThrustEstimate.msg"
-
-	# user messages
-	"msg/OsdOverlay.msg"
 )
 
 file(GLOB ROS_MSG_DIR_LIST "${MSGS_DIR}/*.msg")
