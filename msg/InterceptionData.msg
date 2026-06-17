@@ -13,6 +13,7 @@ uint32 substate # interceptor substate
 bool target_detected # true if the target is detected
 
 float32[3] estimated_relative_position  # estimated relative position of the target in the body frame of the interceptor [m]
+float32[3] lambda_dot # estimated line of sight rate in the body frame of the interceptor [rad/s]
 
 bool interceptor_active # flag if the interceptor node is ACTIVE
 bool target_estimation_active # flag if the target_estimation node is ACTIVE
